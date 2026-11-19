@@ -11,7 +11,7 @@
 
       <!-- Главный заголовок -->
       <h2 class="text-3xl sm:text-5xl font-bold text-dark mb-5 leading-tight">
-        Научите ребёнка читать — через рисование и сказки
+        Знакомство с чтением — через рисование и сказки
       </h2>
 
       <!-- Подзаголовок -->
@@ -34,18 +34,18 @@
           @click="$emit('lead-magnet')"
           class="px-8 py-4 bg-accent text-white font-bold rounded-xl hover:opacity-90 hover:scale-[1.02] transition"
         >
-          Скачать 5 букв бесплатно
+          Скачать букву А бесплатно
         </button>
         <button
           @click="$emit('pricing')"
           class="px-8 py-4 bg-white text-accent font-bold border-2 border-accent rounded-xl hover:bg-accent/5 transition"
         >
-          Купить полный курс — 119₪
+          Купить полный курс — 299₪
         </button>
       </div>
 
       <p class="mt-5 text-sm text-gray-500">
-        5 букв бесплатно: раскраски, сказки и говорилки. Пришлём на почту.
+        Буква А бесплатно: раскраска, сказка и говорилка. Пришлём на почту.
       </p>
     </div>
   </section>

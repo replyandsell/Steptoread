@@ -1,16 +1,22 @@
 <template>
   <div id="app" class="min-h-screen bg-light text-dark">
+    <Header @login="onLogin" @register="onRegister" />
     <Hero @lead-magnet="onLeadMagnet" @pricing="onPricing" />
 <HowItWorks />
 <WhatsIncluded />
-    <!-- Следующие блоки (Problem, Solution, FAQ, форма) добавим дальше -->
+<Objections />
+<FAQ />
+    <!-- Следующие блоки (форма лид-магнита, финальный CTA, футер) добавим дальше -->
   </div>
 </template>
 
 <script setup>
+import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
 import HowItWorks from './components/HowItWorks.vue'
 import WhatsIncluded from './components/WhatsIncluded.vue'
+import Objections from './components/Objections.vue'
+import FAQ from './components/FAQ.vue'
 // Пока заглушки — подключим логику на следующих шагах
 const onLeadMagnet = () => {
   console.log('Открыть форму lead magnet')
@@ -18,6 +24,14 @@ const onLeadMagnet = () => {
 
 const onPricing = () => {
   console.log('Перейти к оплате')
+}
+
+const onLogin = () => {
+  console.log('Открыть форму входа')
+}
+
+const onRegister = () => {
+  console.log('Открыть форму регистрации')
 }
 </script>
 
