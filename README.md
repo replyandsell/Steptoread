@@ -1,4 +1,4 @@
-# Букволёт
+# Steptoread
 
 Обучение русскому алфавиту для детей 4–6 лет. Лэндинг + личный кабинет.
 Стек: Vue 3 + Vite + Tailwind + Supabase + Vercel.
@@ -34,7 +34,7 @@ npm run preview    # локальный просмотр собранной ве
 ## Структура
 
 ```
-bukvolet/
+steptoread/
 ├── api/                  serverless-функции Vercel (пока пусто)
 ├── src/
 │   ├── api/supabase.js   клиент Supabase

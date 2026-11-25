@@ -3,7 +3,7 @@
     <div class="max-w-2xl text-center">
       <!-- Логотип -->
       <div class="mb-10">
-        <h1 class="text-4xl sm:text-5xl font-bold text-accent mb-3">Букволёт</h1>
+        <h1 class="text-4xl sm:text-5xl font-bold text-accent mb-3">Steptoread</h1>
         <p class="text-base sm:text-lg text-gray-600">
           Обучение русскому алфавиту для детей 4–6 лет
         </p>
