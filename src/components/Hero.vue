@@ -5,7 +5,7 @@
       <div class="mb-10">
         <h1 class="text-4xl sm:text-5xl font-bold text-accent mb-3">Steptoread</h1>
         <p class="text-base sm:text-lg text-gray-600">
-          Обучение русскому алфавиту для детей 4–6 лет
+          Методика знакомства с русскими буквами для детей 5–6 лет
         </p>
       </div>
 
@@ -16,7 +16,8 @@
 
       <!-- Подзаголовок -->
       <p class="text-lg sm:text-xl text-gray-600 mb-10 leading-relaxed">
-        Без скучных азбук. 20 минут в день — и ребёнок сам просит заниматься.
+        Без скучных азбук. 5–10 минут в день — 4–5 коротких встреч по паре минут,
+        между делом.
       </p>
 
       <!-- Заглушка под иллюстрацию -->
@@ -40,12 +41,17 @@
           @click="$emit('pricing')"
           class="px-8 py-4 bg-white text-accent font-bold border-2 border-accent rounded-xl hover:bg-accent/5 transition"
         >
-          Купить полный курс — 299₪
+          Купить курс — 299 ₪
         </button>
       </div>
 
       <p class="mt-5 text-sm text-gray-500">
-        Буква А бесплатно: раскраска, сказка и говорилка. Пришлём на почту.
+        299 ₪ или 279 ₪, если ребёнок нарисует открытку. Разово, без подписки.
+      </p>
+
+      <p class="mt-2 text-sm text-gray-500">
+        Бесплатно: «Первая встреча с Маскотом» и комплект буквы А — раскраска,
+        сказка и говорилка. Пришлём на почту.
       </p>
     </div>
   </section>
